@@ -8,36 +8,44 @@
     tools:context=".VELLC_LOGIN">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textViewUsuario"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:text="@string/textView_usuario" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/editTextUsuario"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:hint="@string/editextView_usuario"
         android:inputType="textPersonName"
-        android:text="Name" />
+        android:minHeight="48dp" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/textViewContraseña"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:text="@string/textView_contraseña" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/editTextContraseña"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:hint="@string/editextView_contraseña"
         android:inputType="textPersonName"
-        android:text="Name" />
+        android:minHeight="48dp" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonIngresar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:text="@string/button_Ingresar" />
+
+    <Button
+        android:id="@+id/buttonRegistrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/button_Registrar" />
 </LinearLayout>

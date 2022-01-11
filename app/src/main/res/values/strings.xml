@@ -22,6 +22,6 @@
     <string name="textView_contraseña">Contraseña</string>
     <string name="editextView_usuario">Ingrese el usuario</string>
     <string name="editextView_contraseña">Ingrese la contaseña</string>
-    <string name="editextView1_contraseña">Ingrese la contaseña</string>
     <string name="button_Ingresar">Ingresar </string>
+    <string name="button_Registrar">Registrar </string>
 </resources>
