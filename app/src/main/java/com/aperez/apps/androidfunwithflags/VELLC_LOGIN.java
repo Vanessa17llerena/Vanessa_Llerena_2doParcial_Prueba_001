@@ -1,5 +1,6 @@
 package com.aperez.apps.androidfunwithflags;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -25,11 +26,17 @@ public class VELLC_LOGIN extends AppCompatActivity {
             public void onClick(View v) {
                 String usuario = editTextUsuario.getText().toString();
                 String contraseña= editTextContraseña.getText().toString();
-                if (usuario.equals("")){
-
+                if (usuario.equals("Vanessa") && contraseña.equals("123")){
+                    Intent intent= new Intent(getApplicationContext(), VELLC_MainActivity.class);
+                    startActivity(intent);
                 }
             }
         });
+    }
+
+    public void registar(View view){
+        Intent intent= new Intent(this,VELLC_Registro.class);
+        this.startActivity(intent);
     }
 
 }
