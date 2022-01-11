@@ -24,4 +24,8 @@
     <string name="editextView_contraseña">Ingrese la contaseña</string>
     <string name="button_Ingresar">Ingresar </string>
     <string name="button_Registrar">Registrar </string>
+
+    <string name="hint_name_required">Ingrese el nombre</string>
+
+    <string name="hint_phone">Ingrese la contraseña</string>
 </resources>

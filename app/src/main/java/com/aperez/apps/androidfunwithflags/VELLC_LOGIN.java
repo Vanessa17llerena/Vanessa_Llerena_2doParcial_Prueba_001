@@ -25,6 +25,9 @@ public class VELLC_LOGIN extends AppCompatActivity {
             public void onClick(View v) {
                 String usuario = editTextUsuario.getText().toString();
                 String contraseña= editTextContraseña.getText().toString();
+                if (usuario.equals("")){
+
+                }
             }
         });
     }
