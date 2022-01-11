@@ -9,7 +9,7 @@ public class VELLC_DBHELPER  extends SQLiteOpenHelper {
     private String createTable_Usuarios ="CREATE TABLE Usuarios("+
             "Codigo INTEGER PRIMARY KEY AUTOINCREMENT,"+
             "Nombre TEXT,"+
-            "Contraseña TEXT";
+            "Contraseña TEXT)";
 
     public VELLC_DBHELPER(@Nullable Context context, @Nullable String name, @Nullable SQLiteDatabase.CursorFactory factory, int version) {
         super(context, name, factory, version);
